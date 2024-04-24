@@ -10,5 +10,11 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require bootstrap
+//= require jquery/dist/jquery
+//= require bootstrap/dist/js/bootstrap
+//= require sb-admin-2
+//= require sb-admin-2.min
+//= require jquery-2.2.3/dist/jquery
+//= require fastclick/lib/fastclick
+//= require nprogress/nprogress
+//= require custom
