@@ -39,14 +39,17 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
+                <%= link_to admins_backoffice_welcome_index_path do %>
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    Dashboard
+                <% end %>
+                    
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-users-alt"></i>
-                    <span>Administradores </span></a>
+            <%= link_to admins_backoffice_admins_path do %>
+                <i class="fas fa-fw fa-users-alt"></i>
+                Administradores
+            <% end %>
             </li>
            
         </ul>
@@ -100,7 +103,6 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1> LAYOUT ADMINS BACKOFFICE </h1>
                     <%= yield %>
 
                 </div>
